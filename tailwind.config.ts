@@ -65,8 +65,7 @@ export default {
 				}
 			},
 			fontFamily: {
-				orbitron: ['Orbitron', 'monospace'],
-				rubik: ['Rubik', 'sans-serif'],
+				nunito: ['Nunito', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
