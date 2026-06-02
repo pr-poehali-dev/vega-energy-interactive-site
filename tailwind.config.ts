@@ -64,6 +64,10 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				}
 			},
+			fontFamily: {
+				orbitron: ['Orbitron', 'monospace'],
+				rubik: ['Rubik', 'sans-serif'],
+			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
@@ -89,7 +93,10 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in-up': 'fadeInUp 0.7s ease-out forwards',
+				'float': 'float 6s ease-in-out infinite',
+				'pulse-glow': 'pulseGlow 2s ease-in-out infinite',
 			}
 		}
 	},
